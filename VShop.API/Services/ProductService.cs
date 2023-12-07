@@ -5,7 +5,7 @@ using VShop.API.Repositories;
 
 namespace VShop.API.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
         private readonly IMapper _mapper;
         private IProductRepository _productRepository;
