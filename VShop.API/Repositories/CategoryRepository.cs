@@ -24,6 +24,7 @@ namespace VShop.API.Repositories
         {
             var category = await GetById(id);
             _context.Categories.Remove(category);
+            return category;
         }
 
         public async Task<IEnumerable<Category>> GetAll()
