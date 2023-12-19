@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.API", "VShop.API\VShop.API.csproj", "{88FD7C18-96FA-4B54-A215-FF3107E963DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VShop.API", "VShop.API\VShop.API.csproj", "{88FD7C18-96FA-4B54-A215-FF3107E963DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.WEB", "VShop.WEB\VShop.WEB.csproj", "{7BCE95D3-2B09-4EBF-B8EB-9AA702107516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{88FD7C18-96FA-4B54-A215-FF3107E963DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FD7C18-96FA-4B54-A215-FF3107E963DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FD7C18-96FA-4B54-A215-FF3107E963DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCE95D3-2B09-4EBF-B8EB-9AA702107516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCE95D3-2B09-4EBF-B8EB-9AA702107516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCE95D3-2B09-4EBF-B8EB-9AA702107516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCE95D3-2B09-4EBF-B8EB-9AA702107516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
