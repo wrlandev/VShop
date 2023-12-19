@@ -60,7 +60,7 @@ namespace VShop.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<ProductDTO>> Delete(int id)
+        public async Task<ActionResult<ProductDTO>> Delete(int id) 
         {
             var produtoDto = await _productService.GetProductById(id);
 
@@ -74,5 +74,4 @@ namespace VShop.API.Controllers
             return Ok(produtoDto);
         }
     }
-}
 }
